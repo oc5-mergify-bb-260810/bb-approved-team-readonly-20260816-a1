@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: BB approved team permission revocation Read-only gate
+    conditions:
+      - title = BB APPROVED TEAM READONLY GATE Q7N4
+      - approved-reviews-by = @bb-review-request-team-20260815-a1
+    actions:
+      merge:
+        method: merge
